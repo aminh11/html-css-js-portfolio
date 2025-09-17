@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+  <div class="logo">
+    <img src="./assets/logo.png" alt="Mohamed Amine Hayouni" class="logo-img">
+  </div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Mohamed-Amine-Hayouni.png" alt="Mohamed Amine profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mohamed Amine Hayouni</h1>
+        <p class="section__text__p2">Junior Web Developer & Data Analyst | Business Analyst | ETL, Power BI | E-commerce Automobile</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/10h_tN3Gms5qpRqzd76zsnEQz8kXvQvVD/view?usp=sharing')" 
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+            <img
+            src="./assets/facebook.png"
+            alt="My facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/amin.hayouni.11/?locale=fr_FR'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/amin_hayouni/?hl=fr'"
+          />
+          <img
+            src="./assets/youtube.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.youtube.com/@modelcarsphotography'"
+          />
+          <img
+            src="./assets/x.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://x.com/Amin1112001'"
+          />
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/amine-hayouni-m1/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/aminh11'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor's Degree in Business Computing, specializing in BI Solutions<br></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a passionate data analyst and data scientist, I specialize in turning raw data into insightful, 
+              actionable reports and visualizations. With hands-on experience in tools like Tableau and Power BI, 
+              I craft compelling stories that drive informed decision-making. My approach goes beyond just numbers, 
+              it's about delivering clarity and value, ensuring that your data works for you. Let's transform your 
+              data into a powerful asset for your business.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <!-- Colonne 1 -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Data Analysis</h2>
+            <div class="article-container">
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Power BI</h4>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Tableau</h4>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Microsoft SQL Server</h4>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>SPSS</h4>
+                </div>
+            </article>
+            </div>
+        </div>
+
+        <!-- Colonne 2 -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Python</h4>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>SQL</h4>
+                </div>
+            </article>
+            </div>
+        </div>
+
+        <!-- Colonne 3 -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>HTML</h4>
+                <p></p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>CSS</h4>
+                <p></p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Javascript</h4>
+                <p></p>
+                </div>
+            </article>
+            <article>
+                <img src="./assets/checkmark.png" alt="" class="icon" />
+                <div>
+                <h4>Laravel</h4>
+                <p></p>
+                </div>
+            </article>
+            </div>
+        </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      
+      <!-- projet -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-1.jpg"   
+            alt="GAPS Pièces Auto"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">GAPS Pièces Auto</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/aminh11'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+</section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=medamine.hayouni77@gmail.com&su=Contact%20depuis%20le%20portfolio&body=Bonjour%20Mohamed%20Amine%2C%0A"
+    target="_blank" rel="noopener"
+  >
+    medamine.hayouni77@gmail.com
+  </a>
+</p>
+
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/amine-hayouni-m1/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Mohamed Amine Hayouni. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
